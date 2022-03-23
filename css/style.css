@@ -40,10 +40,21 @@ body {
 }
 
 .sectr{
-    min-height: 70px;
-    margin-bottom: 20px;
+    min-height: 55px;
+    margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.507);
-    border-radius: 17px;
+    border-radius: 15px;
+}
+a {
+    color: #000000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+}
+a:visited {
+    color: #000000; /* Цвет посещённой ссылки */
+} 
+a:hover {
+    color: #030303; /* Цвет ссылки при наведении */ 
+    text-decoration: none; /* Добавляем подчёркивание */
 }
 /* .col {
     background-color: #23d5ab;
